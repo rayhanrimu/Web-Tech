@@ -1,0 +1,429 @@
+<!DOCTYPE html
+PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"
+<html>
+<head>
+<table>
+<cenrer>
+<u>
+<b>Frequency counter</b>
+</u>
+</center>
+<tr>
+<td>Input text:</td>
+</tr>
+<tr>
+<td>
+<textarea name="inputArea" rows="10" cols="60">
+</textarea>
+</td>
+</tr>
+</table>
+<table>
+<tr>
+	<td>
+	<input type="button" value="Record Input" onclick="addInputTextCount();">
+	</td>
+	<td>
+	</td>
+	<td>
+	<input type="button" value="Clear Input" onclick="clerInputArea();">
+	</td>
+	<td>
+	</td>
+	<td>
+	<input type="button" value="Reset Counters" onclick="resetCounters();">
+	</td>
+	
+</tr>
+</body>
+</table>
+<table width="100%" border="0">
+<body>
+
+	<tr>
+	 <td>
+	 <table>
+	 <body>
+		<tr>
+			<td>A</td>
+			<td>
+			   <input type ="text" size"4" value>
+			</td>
+		
+		</tr>
+		<tr>
+			<td>a</td>
+			<td>
+			   <input type ="text" size"4" value>
+			</td>
+		
+		</tr>
+		<tr>
+			<td>B</td>
+			<td>
+			   <input type ="text" size"4" value>
+			</td>
+		
+		</tr>
+		<tr>
+			<td>b</td>
+			<td>
+			   <input type ="text" size"4" value>
+			</td>
+		
+		</tr>
+		<tr>
+			<td>C</td>
+			<td>
+			   <input type ="text" size"4" value>
+			</td>
+		
+		</tr>
+		<tr>
+			<td>c</td>
+			<td>
+			   <input type ="text" size"4" value>
+			</td>
+		
+		</tr>
+		<tr>
+			<td>D</td>
+			<td>
+			   <input type ="text" size"4" value>
+			</td>
+		
+		</tr>
+		<tr>
+			<td>d</td>
+			<td>
+			   <input type ="text" size"4" value>
+			</td>
+		
+		</tr>
+		<tr>
+			<td>E</td>
+			<td>
+			   <input type ="text" size"4" value>
+			</td>
+		
+		</tr>
+		<tr>
+			<td>e</td>
+			<td>
+			   <input type ="text" size"4" value>
+			</td>
+		
+		</tr>
+		<tr>
+			<td>F</td>
+			<td>
+			   <input type ="text" size"4" value>
+			</td>
+		
+		</tr>
+		<tr>
+			<td>f</td>
+			<td>
+			   <input type ="text" size"4" value>
+			</td>
+		
+		</tr>
+		<tr>
+			<td>G</td>
+			<td>
+			   <input type ="text" size"4" value>
+			</td>
+		
+		</tr>
+		<tr>
+			<td>g</td>
+			<td>
+			   <input type ="text" size"4" value>
+			</td>
+		
+		</tr>
+		<tr>
+			<td>H</td>
+			<td>
+			   <input type ="text" size"4" value>
+			</td>
+		
+		</tr>
+		<tr>
+			<td>h</td>
+			<td>
+			   <input type ="text" size"4" value>
+			</td>
+		
+		</tr>
+		<tr>
+			<td>I</td>
+			<td>
+			   <input type ="text" size"4" value>
+			</td>
+		
+		</tr>
+		<tr>
+			<td>i</td>
+			<td>
+			   <input type ="text" size"4" value>
+			</td>
+		
+		</tr>
+		<tr>
+			<td>J</td>
+			<td>
+			   <input type ="text" size"4" value>
+			</td>
+		
+		</tr>
+		<tr>
+			<td>j</td>
+			<td>
+			   <input type ="text" size"4" value>
+			</td>
+		
+		</tr>
+		<tr>
+			<td>K</td>
+			<td>
+			   <input type ="text" size"4" value>
+			</td>
+		
+		</tr>
+		<tr>
+			<td>k</td>
+			<td>
+			   <input type ="text" size"4" value>
+			</td>
+		
+		</tr>
+		<tr>
+			<td>L</td>
+			<td>
+			   <input type ="text" size"4" value>
+			</td>
+		
+		</tr>
+		<tr>
+			<td>l</td>
+			<td>
+			   <input type ="text" size"4" value>
+			</td>
+		
+		</tr>
+		<tr>
+			<td>M</td>
+			<td>
+			   <input type ="text" size"4" value>
+			</td>
+		
+		</tr>
+		<tr>
+			<td>m</td>
+			<td>
+			   <input type ="text" size"4" value>
+			</td>
+		
+		</tr>
+		<tr>
+			<td>N</td>
+			<td>
+			   <input type ="text" size"4" value>
+			</td>
+		
+		</tr>
+		<tr>
+			<td>n</td>
+			<td>
+			   <input type ="text" size"4" value>
+			</td>
+		
+		</tr>
+		<tr>
+			<td>O</td>
+			<td>
+			   <input type ="text" size"4" value>
+			</td>
+		
+		</tr>
+		<tr>
+			<td>o</td>
+			<td>
+			   <input type ="text" size"4" value>
+			</td>
+		
+		</tr>
+		<tr>
+			<td>P</td>
+			<td>
+			   <input type ="text" size"4" value>
+			</td>
+		
+		</tr>
+		<tr>
+			<td>p</td>
+			<td>
+			   <input type ="text" size"4" value>
+			</td>
+		
+		</tr>
+		<tr>
+			<td>Q</td>
+			<td>
+			   <input type ="text" size"4" value>
+			</td>
+		
+		</tr>
+		<tr>
+			<td>q</td>
+			<td>
+			   <input type ="text" size"4" value>
+			</td>
+		
+		</tr>
+		<tr>
+			<td>R</td>
+			<td>
+			   <input type ="text" size"4" value>
+			</td>
+		
+		</tr>
+		<tr>
+			<td>r</td>
+			<td>
+			   <input type ="text" size"4" value>
+			</td>
+		
+		</tr>
+		<tr>
+			<td>S</td>
+			<td>
+			   <input type ="text" size"4" value>
+			</td>
+		
+		</tr>
+		<tr>
+			<td>s</td>
+			<td>
+			   <input type ="text" size"4" value>
+			</td>
+		
+		</tr>
+		<tr>
+			<td>T</td>
+			<td>
+			   <input type ="text" size"4" value>
+			</td>
+		
+		</tr>
+		<tr>
+			<td>t</td>
+			<td>
+			   <input type ="text" size"4" value>
+			</td>
+		
+		</tr>
+		<tr>
+			<td>U</td>
+			<td>
+			   <input type ="text" size"4" value>
+			</td>
+		
+		</tr>
+		<tr>
+			<td>u</td>
+			<td>
+			   <input type ="text" size"4" value>
+			</td>
+		
+		</tr>
+		<tr>
+			<td>V</td>
+			<td>
+			   <input type ="text" size"4" value>
+			</td>
+		
+		</tr>
+		<tr>
+			<td>v</td>
+			<td>
+			   <input type ="text" size"4" value>
+			</td>
+		
+		</tr>
+		<tr>
+			<td>W</td>
+			<td>
+			   <input type ="text" size"4" value>
+			</td>
+		
+		</tr>
+		<tr>
+			<td>w</td>
+			<td>
+			   <input type ="text" size"4" value>
+			</td>
+		
+		</tr>
+		<tr>
+			<td>X</td>
+			<td>
+			   <input type ="text" size"4" value>
+			</td>
+		
+		</tr>
+		<tr>
+			<td>x</td>
+			<td>
+			   <input type ="text" size"4" value>
+			</td>
+		
+		</tr>
+		
+		<tr>
+			<td>Y</td>
+			<td>
+			   <input type ="text" size"4" value>
+			</td>
+		
+		</tr>
+		<tr>
+			<td>y</td>
+			<td>
+			   <input type ="text" size"4" value>
+			</td>
+		
+		</tr>
+		
+		<tr>
+			<td>Z</td>
+			<td>
+			   <input type ="text" size"4" value>
+			</td>
+		
+		</tr>
+		<tr>
+			<td>z</td>
+			<td>
+			   <input type ="text" size"4" value>
+			</td>
+		
+		</tr>
+			<tr>
+	<td>Total</td>
+	<td>
+	<input type="text"  size"5" value></td>
+	</td>
+	</tr>
+		
+		</td>
+	</tr>
+	</body>
+	</table>
+
+	
+
+</head>
+</html>
